@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "drowned_fixer",
+  "version": "${version}",
+  "name": "Drowned Fixer",
+  "description": "Make drowned spawn zombie reinforcements again.",
+  "authors": ["bolli24"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/drowned_fixer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.bolli24.drowned_fixer.client.Drowned_fixerClient"
+    ],
+    "main": [
+      "com.bolli24.drowned_fixer.Drowned_fixer"
+    ]
+  },
+  "mixins": [
+    "drowned_fixer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}"
+  }
+}

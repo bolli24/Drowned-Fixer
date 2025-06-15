@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.bolli24.drowned_fixer.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ZombieEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
