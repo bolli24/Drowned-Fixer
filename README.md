@@ -1,0 +1,1 @@
+In 1.21.2 drowned have been changed so that they no longer spawn zombies as reinforcement but drowned instead. That change broke zombie reinforcement copper farms. This mod restores the previous behaviour.
